@@ -20,22 +20,22 @@ Documentation for the installation of the Arch Linux on a HP Pavilion DV6 laptop
 5. check user groups - `groups <username>`
 6. `visudo` uncomment line `wheel ALL=(ALL) ALL`
 
-#Internet
+# Internet
 
 - Install dhcpcd and enable it -- `systemctl enable dhcpdcd`.
 - Install the drivers of WIFI (broadcom-wl).
 - Activate - sudo wpa_supplicant -B -i wlo1 `/etc/wpa_supplicant/wpa_supplicant.conf`.
 
-#Graphic card
+# Graphic card
 
 - Install the AMD Radeon driver - `pacman -S mesa` 
 
-#Desktop
+# Desktop
 
--Install xorg
+- Install xorg
 
 For the screen brightness install `light`
 
-#fonts
+# Fonts
 
 `pacman -S ttf-dejavu ttf-liberation ttf-droid ttf-ubuntu-font-family noto-fonts`
