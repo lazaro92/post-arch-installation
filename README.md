@@ -27,9 +27,15 @@ Documentation for the installation of the Arch Linux on a HP Pavilion DV6 laptop
 - Activate - sudo wpa_supplicant -B -i wlo1 `/etc/wpa_supplicant/wpa_supplicant.conf`.
 
 #Graphic card
+
 - Install the AMD Radeon driver - `pacman -S mesa` 
 
 #Desktop
+
 -Install xorg
 
 For the screen brightness install `light`
+
+#fonts
+
+`pacman -S ttf-dejavu ttf-liberation ttf-droid ttf-ubuntu-font-family noto-fonts`
