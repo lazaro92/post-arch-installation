@@ -39,3 +39,7 @@ For the screen brightness install `light`
 # Fonts
 
 `pacman -S ttf-dejavu ttf-liberation ttf-droid ttf-ubuntu-font-family noto-fonts`
+
+# NTFS 
+
+For mounting NTFS partitions like usb or external disk - `pacman -S ntfs-3g`
