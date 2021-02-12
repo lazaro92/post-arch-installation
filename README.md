@@ -24,7 +24,7 @@ Documentation for the installation of the Arch Linux on a HP Pavilion DV6 laptop
 
 - Install dhcpcd and enable it -- `systemctl enable dhcpdcd`.
 - Install the drivers of WIFI (broadcom-wl).
-- Activate - sudo wpa_supplicant -B -i wlo1 `/etc/wpa_supplicant/wpa_supplicant.conf`.
+- Activate - `sudo wpa_supplicant -B -i wlo1 /etc/wpa_supplicant/wpa_supplicant.conf`.
 
 # Graphic card
 
