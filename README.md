@@ -44,6 +44,8 @@ For the screen brightness install `light`
 
 For mounting NTFS partitions like usb or external disk - `pacman -S ntfs-3g`.
 
-For mounting -> `sudo mount /dev/sdb1/ /mnt/usbStick` check the first path with`lsblk` and create the directory for the second.
+For mounting -> `sudo mount /dev/sdb1 /mnt/usbStick` check the first path with`lsblk` and create the directory for the second.
+
+(If put the first argument finishing with `/`/ `/dev/sdb1` it will return an error).
 
 For unmount  -> `sudo umount /mnt/usbStick`
