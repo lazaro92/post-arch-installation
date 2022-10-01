@@ -10,6 +10,7 @@ Documentation for the installation of the Arch Linux on a HP Pavilion DV6 laptop
 4. Before install update the mirrors - reflector `--verbose --latest 10 --country Spain --country France --protocol https --sort rate --save /etc/pacman.d/mirrorlist`.
 5. After all pases has done, install grub.
 6. Create a hostname.
+7. Replace the locale in **/etc/locale.conf** with `LANG=en_US.UTF-8` and then reboot the system.
 
 # User and groups
 
